@@ -1,0 +1,37 @@
+/* styling the footer */
+
+.panel-footer {
+    margin-top: 30px;
+    padding-top: 35px;
+    padding-bottom: 30px;
+    background-color: #025292 !important;
+    color: whitesmoke;
+    border-top: 0;
+    clear: both;
+}
+
+.visible-xs {
+    display: none;
+}
+
+.row section {
+    float: left;
+    width: 30%;
+}
+
+.row>.section-1 {
+    margin: 0 0 0 5%;
+}
+
+.row section span {
+    font-size: large;
+}
+
+#address p {
+    color: #000000;
+}
+
+.text-center {
+    text-align: center;
+    margin: 1%;
+}

@@ -1,0 +1,209 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* header styling */
+
+header {
+    background-image: url('./images/7xm.xyz444277.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+
+/* styling the logo image on the navbar */
+
+.img {
+    width: 70px;
+    height: 70px;
+    float: left;
+}
+
+
+/* styling the navbar header text beside the logo */
+
+.navbar-brand #spark-title {
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    line-height: 40px;
+}
+
+.navbar-brand #spark-title:hover {
+    background-color: rgb(34, 34, 34);
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.spark-title:hover {
+    color: white;
+}
+
+
+/* styling the navbar proper */
+
+.nav {
+    background-color: transparent;
+    border-radius: 0;
+    border: 0;
+}
+
+
+/* nav links styles */
+
+.nav.navbar-nav.navbar-right li a {
+    color: rgb(255, 255, 255);
+    font-size: 17px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 35px;
+}
+
+.nav.navbar-nav.navbar-right li a:hover {
+    background-color: rgb(29, 29, 29);
+    color: rgb(255, 255, 255);
+    padding: 5px;
+    border-radius: 5px;
+}
+
+
+/* styliing then responsive navbar */
+
+.navbar-toggle .collapsed {
+    border: 1px solid white;
+}
+
+.collapsed:hover {
+    background-color: white;
+    color: black;
+}
+
+#collapsible-nav {
+    background-color: transparent;
+    color: white;
+}
+
+
+/* end of styling navbar */
+
+
+/* styling the description of header */
+
+aside {
+    margin: 12% 0 0 0;
+    line-height: 25px;
+}
+
+.aside2 {
+    margin: 12% 0 0 0;
+    line-height: 25px;
+    display: none;
+}
+
+.spark-header {
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+}
+
+.description {
+    color: rgb(255, 255, 255);
+    font-size: 17px;
+}
+
+.button {
+    padding: 5px 10px;
+    box-shadow: 1px 1px 1px 1px rgb(1, 49, 1);
+    border: none;
+    border-radius: 5px;
+    background-color: green;
+    color: white;
+}
+
+.button:hover {
+    background-color: aqua;
+    box-shadow: 1px 1px 1px 1px rgb(0, 58, 58);
+}
+
+.button a {
+    text-decoration: none;
+    color: white;
+}
+
+
+/* styling the main body */
+
+.img-card {
+    width: 300px;
+    height: 300px;
+    text-align: center;
+}
+
+.detail {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.card-cont {
+    text-align: center;
+    margin: 30px 0 0 0;
+    background-color: rgb(245, 245, 245, 0.5);
+    padding: 35px 0;
+    height: 400px;
+}
+
+.card-cont a {
+    text-decoration: none;
+}
+
+.card-cont a p {
+    padding: 10px 0 0 0;
+}
+
+
+/* styling the footer */
+
+.panel-footer {
+    margin-top: 30px;
+    padding-top: 35px;
+    padding-bottom: 30px;
+    background-color: #025292;
+    color: whitesmoke;
+    border-top: 0;
+    clear: both;
+}
+
+.visible-xs {
+    display: none;
+}
+
+.row section {
+    float: left;
+    width: 30%;
+}
+
+.row>.section-1 {
+    margin: 0 0 0 5%;
+}
+
+.row section span {
+    font-size: large;
+}
+
+#address p {
+    color: #000000;
+}
+
+.text-center {
+    text-align: center;
+    margin: 1%;
+}
