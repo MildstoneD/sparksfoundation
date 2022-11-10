@@ -1,0 +1,669 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* styling the header */
+
+.con {
+    background-color: rgb(0, 0, 0, 0.8);
+    width: 100%;
+    height: 768px;
+}
+
+header {
+    background-image: url('../images/closeup-diverse-people-joining-their-hands.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 700px;
+    transition: ease-in 0.5s;
+}
+
+
+/* styling the logo image on the navbar */
+
+.img {
+    width: 70px;
+    height: 70px;
+    float: left;
+}
+
+
+/* styling the navbar header text beside the logo */
+
+.navbar-header .navbar-brand #spark-title {
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    line-height: 40px;
+}
+
+.navbar-brand #spark-title:hover {
+    color: rgb(17, 202, 88);
+    border-radius: 5px;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.spark-title:hover {
+    color: white;
+}
+
+
+/* styling the navbar proper */
+
+.nav {
+    background-color: transparent;
+    border-radius: 0;
+    border: 0;
+}
+
+.nav-cont {
+    margin: 0;
+}
+
+
+/* nav links styles */
+
+.nav.navbar-nav.navbar-right li a {
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 35px;
+}
+
+.nav.navbar-nav.navbar-right li a:hover {
+    color: rgb(17, 202, 88);
+    padding: 4px;
+    border-radius: 5px;
+}
+
+
+/* styliing then responsive navbar */
+
+.navbar-toggle .collapsed {
+    border: 1px solid white;
+}
+
+.collapsed:hover {
+    background-color: white;
+    color: black;
+}
+
+#collapsible-nav {
+    background-color: transparent;
+    color: white;
+}
+
+
+/* end of styling navbar */
+
+
+/* styling the text caption */
+
+.motivate {
+    color: white;
+    font-size: 20px;
+    margin-left: 27%;
+    margin-top: 17%;
+    overflow: hidden;
+    border-right: .15em solid transparent;
+    white-space: nowrap;
+    width: 0;
+    cursor: none;
+    animation: typing 8s forwards;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+@keyframes typing {
+    from {
+        width: 0
+    }
+    to {
+        width: 80%
+    }
+}
+
+
+/* styling the buttons */
+
+.donate {
+    background-color: transparent;
+    border: solid 2px white;
+    border-radius: 5px;
+    padding: 10px;
+    width: 200px;
+    color: white;
+    font-weight: bold;
+    margin: 25% 40%;
+    position: absolute;
+    top: 20%;
+    z-index: 1;
+}
+
+.explore {
+    background-color: transparent;
+    border: solid 2px white;
+    border-radius: 5px;
+    padding: 10px;
+    width: 200px;
+    color: white;
+    font-weight: bold;
+    margin: 25% 40%;
+    position: absolute;
+    top: 10%;
+    z-index: 1;
+}
+
+.donate:hover {
+    background-color: rgb(17, 202, 88);
+    transition: linear 1.0s;
+}
+
+.explore:hover {
+    background-color: rgb(202, 202, 17);
+    transition: linear 1.0s;
+}
+
+
+/* styling the  main */
+
+.exp {
+    margin-top: 3%;
+    margin-bottom: 5%;
+    background-color: rgb(247, 247, 247);
+    border-radius: 10px;
+    padding-bottom: 50px;
+    box-shadow: 2px 2px 7px rgb(145, 145, 145, 0.6);
+}
+
+.exp h2 {
+    margin-bottom: 5%;
+}
+
+.volk-img {
+    width: 480px;
+    height: 300px;
+    margin: 0 0 0 5%;
+}
+
+.description {
+    float: right;
+    margin: 0 5% 0 0;
+    font-size: 17px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    line-height: 27px;
+    word-wrap: break-word;
+}
+
+
+/* styling the contact  */
+
+.contact-cont {
+    background-image: url('../images/child.jpg');
+    width: 100%;
+    height: 500px;
+    margin-bottom: 5%;
+}
+
+.sub-contact {
+    background-color: rgb(0, 0, 0, 0.8);
+    width: 100%;
+    height: 500px;
+    padding-top: 5px;
+}
+
+#contact .sub-contact h3 {
+    color: white;
+}
+
+.address,
+.phone,
+.email {
+    background-color: transparent;
+    border-radius: 3px;
+    border: solid 1px white;
+    width: 350px;
+    margin: 1% 0;
+}
+
+.address {
+    height: 150px;
+    margin-top: 3%;
+    color: white;
+    padding: 25px 30px 30px 60px;
+}
+
+.address .texts {
+    float: right;
+    margin-right: 20%;
+    margin-top: -5%;
+}
+
+.address span {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.address .location {
+    float: left;
+    margin-top: 0%;
+    margin-left: 5%;
+    font-size: 20px;
+}
+
+.phone,
+.email {
+    height: 80px;
+    color: white;
+}
+
+.phone span {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.phone .phoneno {
+    margin-left: 25%;
+}
+
+.phone i {
+    margin: 5% 2% 0 20%;
+    font-size: 20px;
+    color: white;
+}
+
+
+/* styling the form */
+
+input {
+    background-color: transparent;
+    display: block;
+    margin: 1%;
+    border: solid 1px white;
+    border-radius: 2px;
+    width: 500px;
+    color: white;
+}
+
+.name {
+    margin-top: 3%;
+}
+
+.name,
+.semail,
+.subject {
+    height: 40px;
+    padding-left: 5px;
+    color: white;
+}
+
+.message {
+    height: 140px;
+    padding-bottom: 105px;
+    padding-left: 5px;
+}
+
+.send {
+    height: 34px;
+    width: 250px;
+    margin-top: 2%;
+}
+
+.send:hover {
+    background-color: rgb(17, 202, 88);
+    border: none;
+    transition: ease-in 1.0s;
+    border-radius: 10px;
+}
+
+::placeholder {
+    color: white;
+}
+
+
+/* styling the footer */
+
+.panel-footer {
+    margin-top: 30px;
+    padding-top: 35px;
+    padding-bottom: 30px;
+    background-color: rgb(15, 15, 15) !important;
+    color: whitesmoke;
+    border-top: 0;
+    clear: both;
+}
+
+.visible-xs {
+    display: none;
+}
+
+.row section {
+    float: left;
+    width: 30%;
+}
+
+.row>.section-1 {
+    margin: 0 0 0 5%;
+}
+
+.row section span {
+    font-size: large;
+}
+
+#address p {
+    color: #000000;
+}
+
+.text-center {
+    text-align: center;
+    margin: 1%;
+}
+
+
+/* responsive web design */
+
+
+/* for medium screens */
+
+@media (min-width:992px) and (max-width: 1200px) {
+    .motivate {
+        margin-left: 20%;
+        margin-top: 20%;
+    }
+    .exp {
+        width: 95%;
+        margin: 6% 0 10% 2.5%;
+        padding-bottom: 50px;
+    }
+    .exp h2 {
+        margin-top: 3%;
+        margin-bottom: 5%;
+    }
+    .volk-img {
+        width: 40%;
+        margin: 0 0 3% 2%;
+    }
+    .description {
+        margin: 0 1% 0 0;
+        width: 50%;
+        word-wrap: break-word;
+    }
+    input {
+        width: 95%;
+    }
+    @keyframes typing {
+        from {
+            width: 0
+        }
+        to {
+            width: 70%
+        }
+    }
+}
+
+
+/* for small screens */
+
+@media (min-width:768px) and (max-width: 991px) {
+    .motivate {
+        margin-left: 22%;
+        margin-top: 25%;
+        font-size: 17px;
+    }
+    .explore {
+        position: absolute;
+        top: 10%;
+        z-index: 1;
+    }
+    .donate {
+        position: absolute;
+        top: 15%;
+        z-index: 1;
+    }
+    .exp {
+        width: 90%;
+        margin: 6% 0 10% 5%;
+        padding-bottom: 50px;
+    }
+    .exp h2 {
+        margin-top: 3%;
+        margin-bottom: 5%;
+    }
+    .volk-img {
+        width: 60%;
+        margin: 0 0 3% 20%;
+    }
+    .description {
+        margin: 0 20% 0 0;
+        width: 60%;
+        word-wrap: break-word;
+    }
+    .address,
+    .phone,
+    .email {
+        width: 350px;
+        margin: 1% 1%;
+        word-wrap: break-word;
+    }
+    .contact-cont {
+        height: 750px;
+        margin-bottom: 5%;
+    }
+    .sub-contact {
+        height: 750px;
+        padding-top: 5px;
+    }
+}
+
+@media (min-width:540px) and (max-width: 767px) {
+    @keyframes typing {
+        from {
+            width: 0
+        }
+        to {
+            width: 70%
+        }
+    }
+    .motivate {
+        margin-left: 27%;
+        margin-top: 20%;
+        font-size: 100%;
+    }
+    .explore {
+        position: absolute;
+        top: 30%;
+        z-index: 1;
+    }
+    .donate {
+        position: absolute;
+        top: 40%;
+        z-index: 1;
+    }
+    .exp {
+        width: 90%;
+        margin: 6% 0 10% 5%;
+        padding-bottom: 50px;
+    }
+    .exp h2 {
+        margin-top: 3%;
+        margin-bottom: 5%;
+    }
+    .volk-img {
+        width: 80%;
+        margin: 0 0 3% 10%;
+    }
+    .description {
+        margin: 0 10% 0 0;
+        width: 80%;
+        word-wrap: break-word;
+    }
+    .address,
+    .phone,
+    .email {
+        width: 350px;
+        margin: 1% 1%;
+        word-wrap: break-word;
+    }
+    .contact-cont {
+        height: 750px;
+        margin-bottom: 5%;
+    }
+    .sub-contact {
+        height: 750px;
+        padding-top: 5px;
+    }
+}
+
+@media (max-width:540px) {
+    @keyframes typing {
+        from {
+            width: 0
+        }
+        to {
+            width: 70%
+        }
+    }
+    /* styling the navbar header text beside the logo */
+    .navbar-header .navbar-brand #spark-title {
+        font-size: 20px;
+    }
+    .motivate {
+        margin-left: 20%;
+        margin-top: 30%;
+        font-size: 100%;
+    }
+    .explore {
+        position: absolute;
+        top: 40%;
+        left: -5%;
+        z-index: 1;
+    }
+    .donate {
+        position: absolute;
+        top: 45%;
+        left: -5%;
+        z-index: 1;
+    }
+    .exp {
+        width: 90%;
+        margin: 6% 0 10% 5%;
+        padding-bottom: 50px;
+    }
+    .exp h2 {
+        margin-top: 3%;
+        margin-bottom: 5%;
+        font-size: 20px;
+    }
+    .volk-img {
+        width: 100%;
+        margin: 0 0 3% 0;
+    }
+    .description {
+        margin: 0 0 0 0;
+        width: 100%;
+        word-wrap: break-word;
+    }
+    input {
+        margin: 1%;
+        width: 100%;
+    }
+    .address,
+    .phone,
+    .email {
+        width: 100%;
+        margin: 1% 1%;
+        word-wrap: break-word;
+    }
+    .contact-cont {
+        height: 750px;
+        margin-bottom: 5%;
+    }
+    .sub-contact {
+        height: 750px;
+        padding-top: 5px;
+    }
+}
+
+@media (max-width:390px) {
+    @keyframes typing {
+        from {
+            width: 0
+        }
+        to {
+            width: 90%
+        }
+    }
+    /* styling the navbar header text beside the logo */
+    .navbar-header .navbar-brand #spark-title {
+        font-size: 20px;
+    }
+    /* styling the header */
+    .motivate {
+        margin-left: 10%;
+        margin-top: 30%;
+        font-size: 100%;
+    }
+    .explore {
+        position: absolute;
+        top: 40%;
+        left: -15%;
+        z-index: 1;
+    }
+    .donate {
+        position: absolute;
+        top: 45%;
+        left: -15%;
+        z-index: 1;
+    }
+    /* styling the explore what we do */
+    .exp {
+        width: 90%;
+        margin: 6% 0 10% 5%;
+        padding-bottom: 50px;
+    }
+    .exp h2 {
+        margin-top: 3%;
+        margin-bottom: 5%;
+        font-size: 20px;
+    }
+    /* styling the explore image */
+    .volk-img {
+        width: 100%;
+        margin: 0 0 3% 0;
+    }
+    /* styling the explore description */
+    .description {
+        margin: 0 0 0 0;
+        width: 100%;
+        word-wrap: break-word;
+    }
+    /* styling the contact us */
+    /* styling the form */
+    input {
+        margin: 1%;
+        width: 100%;
+    }
+    /* styling the contact */
+    .address,
+    .phone,
+    .email {
+        width: 100%;
+        margin: 1% 1%;
+        word-wrap: break-word;
+    }
+    .contact-cont {
+        height: 750px;
+        margin-bottom: 5%;
+    }
+    .sub-contact {
+        height: 750px;
+        padding-top: 5px;
+    }
+}
