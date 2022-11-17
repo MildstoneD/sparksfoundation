@@ -1,0 +1,260 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+/* styling the logo image on the navbar */
+
+.img {
+    width: 70px;
+    height: 70px;
+    float: left;
+}
+
+
+/* styling the navbar header text beside the logo */
+
+.navbar-header .navbar-brand #spark-title {
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    line-height: 40px;
+}
+
+.navbar-brand #spark-title:hover {
+    color: rgb(17, 202, 88);
+    border-radius: 5px;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.spark-title:hover {
+    color: white;
+}
+
+
+/* styling the navbar proper */
+
+.nav {
+    background-color: black !important;
+    border-radius: 0;
+    border: 0;
+}
+
+.nav-cont {
+    margin: 0;
+}
+
+
+/* nav links styles */
+
+.nav.navbar-nav.navbar-right li a {
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 35px;
+}
+
+.nav.navbar-nav.navbar-right li a:hover {
+    color: rgb(17, 202, 88);
+    padding: 4px;
+    border-radius: 5px;
+}
+
+
+/* styliing then responsive navbar */
+
+.navbar-toggle .collapsed {
+    border: 1px solid white;
+}
+
+.collapsed:hover {
+    background-color: white;
+    color: black;
+}
+
+#collapsible-nav {
+    background-color: transparent;
+    color: white;
+}
+
+
+/* end of styling navbar */
+
+
+/* styling the main */
+
+body {
+    background-image: url('../images/join.jpg');
+}
+
+
+/* styling form */
+
+.form-group {
+    margin-top: -3%!important;
+}
+
+.cont-form {
+    background-color: rgb(241, 241, 241, 0.9);
+    width: 35%;
+    /*height: 77%;*/
+    margin: 2% 0 0 30%;
+    padding: 1% 0 0 3%;
+    border-radius: 1.5%;
+    box-shadow: 0.5px 0.5px 5px 0.5px rgb(102, 102, 102);
+}
+
+.cont-form form input {
+    width: 90% !important;
+    height: 30px;
+    margin: 0 0 10px 0;
+    border: 0.5px solid rgb(134, 134, 134, 0.6);
+    border-radius: 5px;
+    padding-left: 5px;
+    box-shadow: 0.5px 0.5px 1px 0.5px rgb(102, 102, 102, 0.2);
+}
+
+input:hover {
+    border: 1px solid #fbc02d !important;
+    position: relative;
+    bottom: 2px;
+}
+
+select {
+    margin: 2px 0;
+}
+
+input:focus {
+    outline: #fbc02d;
+}
+
+.btn {
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(17, 202, 88);
+    border: none;
+    font-weight: bold;
+    margin: 0 0 5% 0 !important;
+    width: 200px;
+}
+
+.btn:hover {
+    background-color: rgb(94, 228, 145);
+    color: #000000;
+}
+
+#checkbox {
+    height: 10px;
+    width: 10px;
+}
+
+label {
+    font-weight: bold;
+    padding: 0px 0;
+}
+
+.cont-form h2 {
+    margin-bottom: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+}
+
+
+/* styling the footer */
+
+.panel-footer {
+    margin-top: 30px;
+    padding-top: 35px;
+    padding-bottom: 30px;
+    background-color: rgb(15, 15, 15) !important;
+    color: whitesmoke;
+    border-top: 0;
+    clear: both;
+}
+
+.visible-xs {
+    display: none;
+}
+
+.row section {
+    float: left;
+    width: 30%;
+}
+
+.row>.section-1 {
+    margin: 0 0 0 5%;
+}
+
+.row section span {
+    font-size: large;
+}
+
+#address p {
+    color: #000000;
+}
+
+.delivery {
+    color: rgb(245, 245, 245) !important;
+}
+
+.text-center {
+    text-align: center;
+    margin: 1%;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .cont-form {
+        background-color: rgb(241, 241, 241, 0.9);
+        width: 50%;
+        /*height: 45%;*/
+        margin: 2% 0 0 25%;
+        padding: 1% 0 0 3%;
+        border-radius: 1.5%;
+        box-shadow: 0.5px 0.5px 5px 0.5px rgb(102, 102, 102);
+    }
+    .btn {
+        height: 50px;
+    }
+}
+
+@media (min-width: 577px) and (max-width: 767px) {
+    .cont-form {
+        background-color: rgb(241, 241, 241, 0.9);
+        width: 50%;
+        /*height: 45%;*/
+        margin: 2% 0 0 25%;
+        padding: 1% 0 0 3%;
+        border-radius: 1.5%;
+        box-shadow: 0.5px 0.5px 5px 0.5px rgb(102, 102, 102);
+    }
+    .btn {
+        height: 50px;
+    }
+}
+
+@media (max-width: 576px) {
+    .cont-form {
+        background-color: rgb(241, 241, 241, 0.9);
+        width: 70%;
+        /*height: 77%;*/
+        margin: 2% 0 0 15%;
+        padding: 1% 0 0 3%;
+        border-radius: 1.5%;
+        box-shadow: 0.5px 0.5px 5px 0.5px rgb(102, 102, 102);
+    }
+    input {
+        width: 93% !important;
+        height: 7%;
+        margin: -2% 0 0 0 !important;
+        border: 0.5px solid rgb(134, 134, 134, 0.6);
+        border-radius: 5px;
+        padding-left: 5px;
+        box-shadow: 0.5px 0.5px 1px 0.5px rgb(102, 102, 102, 0.2);
+    }
+}
